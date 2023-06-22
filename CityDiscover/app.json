@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "CityDiscover",
+    "slug": "CityDiscover",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/LogoCityDiscover.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/LogoCityDiscover.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.thomascalruf.CityDiscover"
+    },
+    "web": {
+      "favicon": "./assets/LogoCityDiscover.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "abebcf74-6944-4837-a19a-15078947322c"
+      }
+    }
+  }
+}
