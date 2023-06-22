@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('assets/Background.jpeg');
+  background-size: 160%;
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+app-root {
+  width: 90%;
+  height: 90%;
+  max-width: 1002px;
+  max-height: 711px;
+  background: rgba(255, 255, 255, 0.85);
+  margin: auto;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('assets/AvenirNextLTPro-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media (max-width: 426px){
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-size: 500%;
+    background-position: 54% 50%;
+  }
+
+
+  app-root {
+    width: 85%;
+    height: 90%;
+
+    min-height: 743px;
+
+    background: rgba(255, 255, 255, 0.85);
+    margin: auto;
+  }
+}
